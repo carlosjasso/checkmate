@@ -1,0 +1,2 @@
+# checkmate
+♟ Chess automation dojo
