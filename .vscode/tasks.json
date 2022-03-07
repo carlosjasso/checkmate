@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": "$eslint-stylish"
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": "$eslint-stylish"
+    },
+    {
+      "type": "npm",
+      "script": "test",
+      "problemMatcher": "$eslint-stylish"
+    },
+    {
+      "type": "npm",
+      "script": "eject",
+      "problemMatcher": "$eslint-stylish"
+    },
+  ]
+}
