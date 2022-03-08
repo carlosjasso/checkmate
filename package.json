@@ -3,15 +3,20 @@
   "version": "0.0.0",
   "private": false,
   "repository": {
-      "type": "git",
-      "url": "https://github.com/carlosjasso/checkmate"
+    "type": "git",
+    "url": "https://github.com/carlosjasso/checkmate"
   },
   "contributors": [
-      {
-          "name": "Carlos Jasso",
-          "email": "contact@carlosjasso.dev",
-          "url": "https://carlosjasso.dev/"
-      }
+    {
+      "name": "Carlos Jasso",
+      "email": "contact@carlosjasso.dev",
+      "url": "https://carlosjasso.dev/"
+    },
+    {
+      "name": "Jasso Zuñiga",
+      "email": "jassozng@gmail.com",
+      "url": "https://jassozng.xyz/"
+    }
   ],
   "license": "Unlicense",
   "dependencies": {
