@@ -1,6 +1,28 @@
 {
   "version": "2.0.0",
   "tasks": [
+    // project scripts
+    {
+      "label": "VSCode: Install project extensions",
+      "type": "shell",
+      "options": {
+        "cwd": "${workspaceFolder}/scripts"
+      },
+      "command": "VSCodeSetup.sh",
+      "problemMatcher": [],
+      "windows": {
+        "command": "powershell",
+        "args": [
+          "-ExecutionPolicy",
+          "Bypass",
+          "-NoLogo",
+          "-NoProfile",
+          "-File",
+          "VSCodeSetup.ps1"
+        ]
+      }
+    },
+    // npm scripts
     {
       "type": "npm",
       "script": "start",
@@ -20,6 +42,6 @@
       "type": "npm",
       "script": "eject",
       "problemMatcher": "$eslint-stylish"
-    },
+    }
   ]
 }
